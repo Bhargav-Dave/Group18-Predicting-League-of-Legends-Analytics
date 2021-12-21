@@ -52,7 +52,7 @@ export function MainListItems(props) {
         </ListItemIcon>
         <ListItemText primary="Champions" />
       </ListItem>
-      
+
       <ListItem
         button
         component={RouterLink}
@@ -95,7 +95,7 @@ export function SecondaryListItems(props) {
   return (
     <div>
       <ListSubheader inset>Player Details</ListSubheader>
-      
+
       <ListItem
         button
         component={RouterLink}
@@ -129,7 +129,7 @@ export function SecondaryListItems(props) {
         </ListItemIcon>
         <ListItemText primary="Compare" />
       </ListItem>
-      <ListItem
+      {/* <ListItem
         button
         component={RouterLink}
         to="/get-app"
@@ -139,7 +139,7 @@ export function SecondaryListItems(props) {
           <GetApp />
         </ListItemIcon>
         <ListItemText primary="Download App" />
-      </ListItem>      
+      </ListItem>       */}
     </div>
   );
 }

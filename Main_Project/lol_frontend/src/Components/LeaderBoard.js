@@ -126,7 +126,7 @@ export default function BasicTable() {
             </Paper>
             {dat === null ? (
                 <Typography variant="h4" color="textSecondary" align="center">
-                    Leaderboard Will be Shown Here Soon! 
+                    Leaderboard Will be Shown Here Soon!
                 </Typography>
             ) : (
                 <Paper className={classes.table} elevation={2}>
